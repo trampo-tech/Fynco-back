@@ -1,0 +1,26 @@
+# Dependências do PHP
+src/vendor/
+
+# Ambiente
+src/.env
+src/.env.*
+
+# Cache/arquivos temporários do Laravel
+src/storage/*.key
+src/storage/logs/*.log
+src/storage/framework/cache/*
+src/storage/framework/sessions/*
+src/storage/framework/views/*
+src/bootstrap/cache/*.php
+
+# Sistema/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Docker (artefatos locais)
+*.pid
+*.seed
+.env.local
+docker-compose.override.yml
